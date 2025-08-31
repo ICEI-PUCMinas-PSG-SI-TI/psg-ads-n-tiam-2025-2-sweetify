@@ -1,44 +1,61 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Persona 1 – Mariana Oliveira (Confeiteira Autônoma Iniciante)**
+- **Idade:** 23 anos
+- **Profissão:** Estudante de gastronomia 
+- **Contexto:** Mariana começou a vender doces durante a faculdade para complementar a renda. Trabalha de casa, recebe encomendas pelo WhatsApp e Instagram, mas ainda tem dificuldade em organizar os pedidos e calcular preços de forma justa.
+- **Necessidades:**
+  - Não sabe precificar corretamente seus doces.
+  - Se perde com as encomendas, às vezes esquece prazos.
+  - Quer transmitir mais profissionalismo para os clientes.
+- **Como o Sweetify ajuda:**
+  - Automatiza o cálculo de preços com base nos custos e margem de lucro.
+  - Organiza os pedidos por ordem de entrega.
+  - Gera um catálogo bonito e compartilhável para enviar aos clientes.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Persona 2 – Carlos Mendes (Confeiteiro Experiente e Empreendedor)**
+- **Idade:** 35 anos
+- **Profissão:** Dono de uma pequena confeitaria de bairro
+- **Contexto:** Carlos já vive da confeitaria há anos, mas gerencia tudo em cadernos e planilhas. Quer expandir o negócio, atender mais clientes e evitar erros na produção, mas tem dificuldade em ter um controle eficiente dos ingredientes e da produção.
+- **Necessidades/Dores:**
+  - Precisa de controle sobre os ingredientes para evitar desperdícios.
+  - Quer facilitar o gerenciamento de muitos pedidos ao mesmo tempo.
+  - Precisa manter seu catálogo sempre atualizado de forma rápida.
+- **Como o Sweetify ajuda:**
+  - Mostra a quantidade exata de ingredientes para cada produção.
+  - Ajuda a acompanhar pedidos em andamento e já concluídos.
+  - Permite atualizar receitas e preços facilmente.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+**Persona 3 – Juliana Santos (Cliente de Doces)**
+- **Idade:** 29 anos
+- **Profissão:** Analista de Marketing
+- **Contexto:** Juliana adora encomendar doces para festas de amigos e eventos da família. Costuma buscar opções em redes sociais, mas muitas vezes se sente perdida porque os catálogos não são claros e os preços variam muito.
+- **Necessidades/Dores:**
+  - Quer visualizar facilmente as opções de doces e preços.
+  - Deseja praticidade na hora de encomendar.
+  - Gosta de ter segurança de que o pedido será entregue no prazo.
+ - **Como o Sweetify ajuda:**
+  - Disponibiliza um catálogo online organizado e confiável.
+  - Dá clareza sobre preços e produtos disponíveis.
+  - Aumenta a confiança no trabalho do confeiteiro.
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Confeiteiro | Cadastrar minhas informações pessoais e criar meu catálogo | Organizar minhas receitas e pedidos de forma prática |
+| Confeiteiro | Cadastrar os preços dos ingredientes que uso | Calcular os valores das encomendas |
+| Confeiteiro | Registrar as encomendas recebidas e suas datas | Cumprir os prazos corretamente |
+| Confeiteiro | Dividir a margem de luvro de cada pedido | Garantir que estou lucrando de forma justa e transparente |
+| Confeiteiro | Visualizar todos os pedidos em ordem de prioridade (prazo) | Conseguir organizar minha rotina de produção |
+| Confeiteiro | Ver a lista de ingredientes necessários para cada pedido | saber exatamente as quantidade e me organizar para comprar os produtos |
+| Confeiteiro | Consultar o histórico de pedidos concluídos | Ter um registro de encomendas já feitas e analisar meu desempenho |
+| Cliente | Acessar o catálogo online | vizualizar com maior facilidade e poder realizar pedidos |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
