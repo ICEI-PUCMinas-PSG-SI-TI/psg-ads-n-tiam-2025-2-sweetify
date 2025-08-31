@@ -90,51 +90,35 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
-
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito |Teste | Critério | Prioridade |
+|------|-----------------------------------------|---|------------------------------------------|---|
+|RF-001|UC-001 - Login no Sistema|TC-001 - Teste de autenticação| O usuário consegue acessar o sistema com credenciais válidas.| Alta |
+|RF-002|UC-002 - Cadastro de Catálogo|TC-002 - Teste de cadastro de produtos| O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.| Alta |
+|RF-003|UC-003 - Listar Encomendas|TC-003 - Teste de listagem de encomendas| Listagem completa de encomendas com os campos definidos.| Média |
+|RF-004|UC-004 - Priorizar Pedidos|TC-004 - Teste de ordenação por prazo| Pedidos exibidos em ordem de prazo crescente.| Média |
+|RF-005|UC-005 - Gerenciar Receitas|TC-005 - Teste de criação e edição de receitas| O usuário consegue criar, salvar e alterar receitas existentes.| Alta |
+|RF-006|UC-006 - Sugestão de Preços|TC-006 - Teste de precificação automática| Sugestões de preços apresentadas com base em dados externos ou históricos.| Média |
+|RF-007|UC-007 - Controle de Estoque|TC-007 - Teste de atualização automática do estoque| O estoque é atualizado automaticamente após cada pedido confirmado.| Baixa |
+|RF-008|UC-008 - Relatórios Financeiros|TC-008 - Teste de geração de relatórios| Relatórios são gerados corretamente e exibem dados consolidados.| Média |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Tipo |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001|O sistema deve seguir as regras de privacidade LGPD.|Segurança|Dados do usuário tratados de acordo com a legislação vigente.|
+|RNF-002|O sistema deve ser responsivo.|Usabilidade|Interface se adapta a dispositivos móveis, tablets e desktops.|
+|RNF-003|O sistema deve estar disponível 24/7.|Disponibilidade|Testes confirmam uptime contínuo.|
+|RNF-004|Tempo de carregamento menor que 3 segundos.|Desempenho|Páginas principais carregam em até 3 segundos em ambiente de produção.|
+ 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RN-01|Senhas devem ter no mínimo 8 caracteres, incluindo letras e números.|
+|RN-02|Relatórios só podem ser gerados por usuários com perfil de administrador.|
 
 ## Diagrama de Casos de Uso
 
