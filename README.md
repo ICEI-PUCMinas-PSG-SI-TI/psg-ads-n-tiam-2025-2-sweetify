@@ -1,29 +1,28 @@
-# TÍTULO DO PROJETO
+# Sweetfy
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar de Aplicações Móveis`
 
-`SEMESTRE`
+`4º semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+## Introdução
+
+Em um cenário de pequenos empreendedores que buscam, desde uma renda extra, até a oportunidade de entrarem no mercado de trabalho de forma independente, surge a necessidade de uma organização e gerencimento financeiro, algo que faça com que o investimento no projeto seja bem aplicado e os custos e lucros sejam bem direcionados, para uma maior longevidade do empreendimento.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Fábia Rodrigues
+* Gabriel Araújo
+* Marcos Vinícius
+* Maria Eduarda Salomão
+* Matheus Dias
+  
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-# Documentação
+## Documentação
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -41,7 +40,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+## Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
