@@ -8,10 +8,12 @@
 
 ## Objetivos
 
- Buscando trazer de uma forma mais clara e menos técnica a organização do dia a dia do empreendimento, tendo como objetivo auxiliar pequenos empreendedores do ramo da confeitaria a gerenciarem sua empresa de forma mais dinâmica e simplificada.
-	Com o objetivo de facilitar os projetos mais técnicos do processo de gerenciamento, um local onde será possível inserir os valores do mercado e calcular a precificação para os produtos, a porcentagem dos rendimentos.
-	Também a possibilidade de servir com uma vitrine, oferecendo um catálogo, com o qual os clientes interagir e realizar seus pedidos
+### Objetivo Geral
+A aplicação Sweetify busca ser um aplicativo que auxilia pequenas confeitarias a gerenciar com maior eficiência e agilidade a sua cadeia produtiva e administrativa. 
 
+### Objetivos Específicos
+
+Por meio de funcionalidades adaptadas e direcionadas totalmente para o público-alvo do projeto, o aplicativo irá se pautar principalmente em tópicos de gestão e gerência. Formas de facilitar a precificação, organização de pedidos e insumos, e maneiras de fomentar a diminuição de erros ocasionados por duplas, ou até mesmo triplas, jornadas laborais, são as prerrogativas centrais usadas pelo Sweetify para cumprir seu objetivo principal de apoiar pequenas confeitarias.
 
 ## Justificativa
 
