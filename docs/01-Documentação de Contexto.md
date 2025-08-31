@@ -1,27 +1,17 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+ Em um cenário de pequenos empreendedores que buscam, desde uma renda extra, até a oportunidade de entrarem no mercado de trabalho de forma independente, surge a necessidade de uma organização e gerencimento financeiro, algo que faça com que o investimento no projeto seja bem aplicado e os custos e lucros sejam bem direcionados, para uma maior longevidade do empreendimento.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+ Em busca tornar essa organização, muitas vezes complexa e confusa para os pequenos empreendedores individuais, o Sweetify surge como uma oportunidade na palma da sua mão, tornando o processo mais simples e trazendo um visual mais dinâmico, o aplicativo encontrará pessoas com pouco experiência com gerenciamento e pouco tempo - já que grande parte dos pequenos empreendedores possuem trabalhos formais em contraponto dos empreendimentos -, apresentando uma forma de complementar o dia-a-dia na cozinha como um livro de receitas, tornando estes processos mais intuitivos e menos complexos.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+ Buscando trazer de uma forma mais clara e menos técnica a organização do dia a dia do empreendimento, tendo como objetivo auxiliar pequenos empreendedores do ramo da confeitaria a gerenciarem sua empresa de forma mais dinâmica e simplificada.
+	Com o objetivo de facilitar os projetos mais técnicos do processo de gerenciamento, um local onde será possível inserir os valores do mercado e calcular a precificação para os produtos, a porcentagem dos rendimentos.
+	Também a possibilidade de servir com uma vitrine, oferecendo um catálogo, com o qual os clientes interagir e realizar seus pedidos
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
