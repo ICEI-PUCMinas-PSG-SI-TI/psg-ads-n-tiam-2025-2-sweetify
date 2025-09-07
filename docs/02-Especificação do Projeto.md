@@ -47,14 +47,14 @@
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Confeiteiro | Cadastrar minhas informações pessoais e criar meu catálogo | Organizar minhas receitas e pedidos de forma prática |
+| Confeiteiro | Cadastrar minhas informações pessoais e meus itens de produção | Organizar minhas receitas e pedidos de forma prática |
 | Confeiteiro | Cadastrar os preços dos ingredientes que uso | Calcular os valores das encomendas |
-| Confeiteiro | Registrar as encomendas recebidas e suas datas | Cumprir os prazos corretamente |
-| Confeiteiro | Dividir a margem de luvro de cada pedido | Garantir que estou lucrando de forma justa e transparente |
-| Confeiteiro | Visualizar todos os pedidos em ordem de prioridade (prazo) | Conseguir organizar minha rotina de produção |
-| Confeiteiro | Ver a lista de ingredientes necessários para cada pedido | saber exatamente as quantidade e me organizar para comprar os produtos |
-| Confeiteiro | Consultar o histórico de pedidos concluídos | Ter um registro de encomendas já feitas e analisar meu desempenho |
-| Cliente | Acessar o catálogo online | vizualizar com maior facilidade e poder realizar pedidos |
+| Confeiteiro | Que o sistema calcule e recalcule o preço de venda de um produto | Garantir que estou lucrando de forma justa e transparente |
+| Confeiteiro | Inserir a margem de lucro de cada produto que cadastrar | Gerenciar meus preços de venda adequadamente |
+| Confeiteiro | Visualizar todos os produtos | Conseguir organizar minha rotina de produção |
+| Confeiteiro | Ver a lista de ingredientes necessários para cada produto | saber exatamente as quantidade e me organizar para comprar os insumos e itens usados na produção |
+| Confeiteiro | Combinar receitas em um único produto | Ter um diferentes combinações entre minhas receitas |
+| Confeiteiro | Registrar receitas utilizando somente insumos pré-cadastrados | Manter a organização e a coerência dos meus produtos. |
 
 
 ## Requisitos
