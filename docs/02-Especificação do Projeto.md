@@ -61,16 +61,16 @@
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito |Teste | Critério | Prioridade |
-|------|-----------------------------------------|---|------------------------------------------|---|
-|RF-001|UC-001 - Login no Sistema|TC-001 - Teste de autenticação| O usuário consegue acessar o sistema com credenciais válidas.| Alta |
-|RF-002|UC-002 - Cadastro de Catálogo|TC-002 - Teste de cadastro de produtos| O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.| Alta |
-|RF-003|UC-003 - Listar Encomendas|TC-003 - Teste de listagem de encomendas| Listagem completa de encomendas com os campos definidos.| Média |
-|RF-004|UC-004 - Priorizar Pedidos|TC-004 - Teste de ordenação por prazo| Pedidos exibidos em ordem de prazo crescente.| Média |
-|RF-005|UC-005 - Gerenciar Receitas|TC-005 - Teste de criação e edição de receitas| O usuário consegue criar, salvar e alterar receitas existentes.| Alta |
-|RF-006|UC-006 - Sugestão de Preços|TC-006 - Teste de precificação automática| Sugestões de preços apresentadas com base em dados externos ou históricos.| Média |
-|RF-007|UC-007 - Controle de Estoque|TC-007 - Teste de atualização automática do estoque| O estoque é atualizado automaticamente após cada pedido confirmado.| Baixa |
-|RF-008|UC-008 - Relatórios Financeiros|TC-008 - Teste de geração de relatórios| Relatórios são gerados corretamente e exibem dados consolidados.| Média |
+|ID|Descrição do Requisito|Prioridade|Critério de Aceitação|Origem|
+|---|---|---|---|---|
+|RF-001|O sistema deve permitir login com e-mail e senha.|Alta|O usuário consegue acessar o sistema com credenciais válidas.|Cliente|
+|RF-002|O sistema deve permitir que o usuário adicione seu catálogo de produtos.|Alta|O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.|Cliente|
+|RF-003|O usuário terá a possibilidade de acessar todas as encomendas, contendo nome do cliente, produto, quantidade e prazo de entrega.|Alta|Listagem completa de encomendas com os campos definidos.|Cliente|
+|RF-004|O usuário terá acesso aos pedidos por ordem de prioridade, de acordo com o prazo de entrega determinado pelos clientes.|Alta|Pedidos exibidos em ordem de prazo crescente.|Cliente|
+|RF-005|No catálogo, o usuário pode adicionar novas receitas ou editar informações de receitas já cadastradas, mantendo o cardápio atualizado.|Média|O usuário consegue criar, salvar e alterar receitas existentes.|Cliente|
+|RF-006|O sistema deve sugerir precificação aos catálogos dos clientes baseado nos preços de mercado.|Baixa|Sugestões de preços apresentadas com base em dados externos ou históricos.|Cliente|
+|RF-007|O sistema deve fazer um controle automático de estoque e uso de ingredientes na confecção dos doces baseado nos pedidos.|Alta|O estoque é atualizado automaticamente após cada pedido confirmado.|Cliente|
+|RF-008|O sistema deve oferecer ao usuário relatórios pré-definidos como curva ABC e margem de lucros.|Média|Relatórios são gerados corretamente e exibem dados consolidados.|Cliente|
 
 ### Requisitos não Funcionais
 
@@ -96,17 +96,16 @@
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+|ID    | Descrição do Requisito |Teste | Critério | Prioridade |
+|------|-----------------------------------------|---|------------------------------------------|---|
+|RF-001|UC-001 - Login no Sistema|TC-001 - Teste de autenticação| O usuário consegue acessar o sistema com credenciais válidas.| Alta |
+|RF-002|UC-002 - Cadastro de Catálogo|TC-002 - Teste de cadastro de produtos| O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.| Alta |
+|RF-003|UC-003 - Listar Encomendas|TC-003 - Teste de listagem de encomendas| Listagem completa de encomendas com os campos definidos.| Média |
+|RF-004|UC-004 - Priorizar Pedidos|TC-004 - Teste de ordenação por prazo| Pedidos exibidos em ordem de prazo crescente.| Média |
+|RF-005|UC-005 - Gerenciar Receitas|TC-005 - Teste de criação e edição de receitas| O usuário consegue criar, salvar e alterar receitas existentes.| Alta |
+|RF-006|UC-006 - Sugestão de Preços|TC-006 - Teste de precificação automática| Sugestões de preços apresentadas com base em dados externos ou históricos.| Média |
+|RF-007|UC-007 - Controle de Estoque|TC-007 - Teste de atualização automática do estoque| O estoque é atualizado automaticamente após cada pedido confirmado.| Baixa |
+|RF-008|UC-008 - Relatórios Financeiros|TC-008 - Teste de geração de relatórios| Relatórios são gerados corretamente e exibem dados consolidados.| Média |
 
 # Gerenciamento de Projeto
 
