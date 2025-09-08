@@ -1,6 +1,6 @@
 # Introdução
 
-Em um cenário de pequenos empreendedores que buscam, desde uma renda extra, até a oportunidade de entrarem no mercado de trabalho de forma independente, surge a necessidade de uma organização e gerencimento financeiro, algo que faça com que o investimento no projeto seja bem aplicado e os custos e lucros sejam bem direcionados, para uma maior longevidade do empreendimento.
+Em um cenário de pequenos empreendedores buscam, desde uma renda extra, até a oportunidade de entrarem no mercado de trabalho de forma independente, surge a necessidade formas de organização e gerencimento do negócio, algo que faça com que o investimento no projeto seja bem aplicado e os custos e lucros sejam bem direcionados, para uma maior longevidade do empreendimento.
 
 ## Problema
 
@@ -34,4 +34,3 @@ Com o uso da plataforma, os usuários têm acesso a um ambiente de trabalho mais
 ## Público-Alvo
 
 A Sweetify é voltada para confeiteiros autônomos, desde iniciantes até profissionais experientes, que desejam automatizar e otimizar seus processos produtivos. O aplicativo atende usuários com diferentes níveis de conhecimento em tecnologia — baixo, médio ou alto — oferecendo uma experiência intuitiva e acessível para todos. Além disso, foi projetado para contemplar diversas faixas etárias, garantindo praticidade, inclusão e eficiência no uso diário.
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
