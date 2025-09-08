@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Em um cenário de pequenos empreendedores que buscam, desde uma renda extra, até a oportunidade de entrarem no mercado de trabalho de forma independente, surge a necessidade de uma organização e gerencimento financeiro, algo que faça com que o investimento no projeto seja bem aplicado e os custos e lucros sejam bem direcionados, para uma maior longevidade do empreendimento.
+No atual cenário de pequenos empreendimentos, a busca por independência e fontes de renda extra tem crescido exponencialmente. No entanto, a falta de organização e gestão financeira eficiente pode comprometer a longevidade desses negócios. O Sweetify surge como uma solução para simplificar a vida de pequenos empreendedores do ramo da confeitaria, oferecendo ferramentas para gestão de custos, precificação, organização de pedidos e controle de ingredientes de forma intuitiva e acessível.
 
 ## Integrantes
 
