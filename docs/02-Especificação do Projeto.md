@@ -12,7 +12,7 @@
   - Quer transmitir mais profissionalismo para os clientes.
 - **Como o Sweetify ajuda:**
   - Automatiza o cálculo de preços com base nos custos e margem de lucro.
-  - Organiza os pedidos por ordem de entrega.
+  - Traz maneiras de organizar a produção.
   - Gera um catálogo bonito e compartilhável para enviar aos clientes.
 
 **Persona 2 – Carlos Mendes (Confeiteiro Experiente e Empreendedor)**
@@ -25,22 +25,22 @@
   - Precisa manter seu catálogo sempre atualizado de forma rápida.
 - **Como o Sweetify ajuda:**
   - Mostra a quantidade exata de ingredientes para cada produção.
-  - Ajuda a acompanhar pedidos em andamento e já concluídos.
+  - Ajuda a gerenciar insumos, embalagens e outros itens necessários para um produto
   - Permite atualizar receitas e preços facilmente.
 
 
-**Persona 3 – Juliana Santos (Cliente de Doces)**
+**Persona 3 – Juliana Santos (Gerente de capital humano)**
 - **Idade:** 29 anos
-- **Profissão:** Analista de Marketing
-- **Contexto:** Juliana adora encomendar doces para festas de amigos e eventos da família. Costuma buscar opções em redes sociais, mas muitas vezes se sente perdida porque os catálogos não são claros e os preços variam muito.
+- **Profissão:** Gerente de capital humano
+- **Contexto:** Juliana é mãe solo de três filhos e possui um emprego formal em uma pequena empresa. Com o aumento do custo de itens básicos para a sua subsistência, resolveu começar há trabalhar com doces fora do seu expediente para complementar sua renda. Pela falta de tempo no dia a dia e pouca experiência com o mercado e processos produtivos, Juliana acaba se perdendo e dispendendo muito tempo em tarefas básicas do mundo da confeitaria.
 - **Necessidades/Dores:**
-  - Quer visualizar facilmente as opções de doces e preços.
-  - Deseja praticidade na hora de encomendar.
-  - Gosta de ter segurança de que o pedido será entregue no prazo.
+  - Formas de gerenciar suas receitas.
+  - Jeitos práticos de saber o que será necessário para produzir um pedido
+  - Realização manual de muitos processos
  - **Como o Sweetify ajuda:**
-  - Disponibiliza um catálogo online organizado e confiável.
-  - Dá clareza sobre preços e produtos disponíveis.
-  - Aumenta a confiança no trabalho do confeiteiro.
+  - Permite cadastrar e gerenciar receitas, insumos e produtos em um mesmo local de forma rápida e integrada
+  - Dá clareza sobre o que será necessário para produzir um pedido.
+  - Automatiza processos manuais
 
 
 ## Histórias de Usuários
@@ -98,14 +98,14 @@
 
 |ID    | Descrição do Requisito |Teste | Critério | Prioridade |
 |------|-----------------------------------------|---|------------------------------------------|---|
-|RF-001|UC-001 - Login no Sistema|TC-001 - Teste de autenticação| O usuário consegue acessar o sistema com credenciais válidas.| Alta |
-|RF-002|UC-002 - Cadastro de Catálogo|TC-002 - Teste de cadastro de produtos| O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.| Alta |
-|RF-003|UC-003 - Listar Encomendas|TC-003 - Teste de listagem de encomendas| Listagem completa de encomendas com os campos definidos.| Média |
-|RF-004|UC-004 - Priorizar Pedidos|TC-004 - Teste de ordenação por prazo| Pedidos exibidos em ordem de prazo crescente.| Média |
-|RF-005|UC-005 - Gerenciar Receitas|TC-005 - Teste de criação e edição de receitas| O usuário consegue criar, salvar e alterar receitas existentes.| Alta |
-|RF-006|UC-006 - Sugestão de Preços|TC-006 - Teste de precificação automática| Sugestões de preços apresentadas com base em dados externos ou históricos.| Média |
-|RF-007|UC-007 - Controle de Estoque|TC-007 - Teste de atualização automática do estoque| O estoque é atualizado automaticamente após cada pedido confirmado.| Baixa |
-|RF-008|UC-008 - Relatórios Financeiros|TC-008 - Teste de geração de relatórios| Relatórios são gerados corretamente e exibem dados consolidados.| Média |
+|RF-001|UC-001 - Login no Sistema |TC-001 - Teste de autenticação | O usuário consegue acessar o sistema com credenciais válidas | Alta |
+|RF-002|UC-002 - Gerenciar usuários, produtos, receitas e custos de produção |TC-002 - Teste de CRUD de dados | O usuário consegue criar, atualizar e excluir dados | Alta |
+|RF-003|UC-003 - Calcular rendimento total do produto | TC-003 - Teste de cálculo de rendimento | O sistema exibe o número total de porções ou unidades que a receita rende | Alta |
+|RF-004|UC-004 - Registrar produto com múltiplas receitas | TC-004 - Teste de associação de receitas | O usuário consegue vincular várias receitas a um único produto | Alta |
+|RF-005|UC-005 - Gerenciar Receitas | TC-005 - Teste de criação e edição de receitas | O usuário consegue criar, salvar e alterar receitas existentes | Alta |
+|RF-006|UC-006 - Sugestão de Preços de Produtos |TC-006 - Teste de precificação automática | Sugestões de preços apresentadas com base em dados de insumos e receitas inseridos pelo usuário | Alta |
+|RF-007|UC-007 - Controle de Insumos |TC-007 - Teste de criação e edição de insumos | O usuário consegue criar, salvar e alterar receitas existentes | Alta |
+|RF-008|UC-008 - Visualizar todas as informações cadastradas | TC-008 - Teste de visualização de dados | O usuário pode visualizar a lista completa de produtos, receitas, e custos | Alta |
 
 # Gerenciamento de Projeto
 
