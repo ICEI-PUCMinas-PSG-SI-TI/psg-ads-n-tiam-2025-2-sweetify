@@ -17,6 +17,7 @@ No atual cenário de pequenos empreendimentos, a busca por independência e font
 * Marcos Vinícius
 * Maria Eduarda Salomão
 * Matheus Dias
+* Yuri Martins
   
 ## Orientador
 
