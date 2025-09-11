@@ -91,7 +91,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](img/casos-de-uso.png)
+![Diagrama de Casos de Uso](img/Casos-de-Uso.jpg)
 
 
 # Matriz de Rastreabilidade
