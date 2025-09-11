@@ -87,7 +87,7 @@
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |RN-01|Senhas devem ter no mínimo 8 caracteres, incluindo letras e números.|
-|RN-02|Relatórios só podem ser gerados por usuários com perfil de administrador.|
+|RN-02|Sistema deve ser desenvolvido dentro do prazo estipulado para o projeto.|
 
 ## Diagrama de Casos de Uso
 
