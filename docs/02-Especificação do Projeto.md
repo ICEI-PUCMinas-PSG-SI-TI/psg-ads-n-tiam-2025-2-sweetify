@@ -13,7 +13,6 @@
 - **Como o Sweetify ajuda:**
   - Automatiza o cálculo de preços com base nos custos e margem de lucro.
   - Traz maneiras de organizar a produção.
-  - Gera um catálogo bonito e compartilhável para enviar aos clientes.
 
 **Persona 2 – Carlos Mendes (Confeiteiro Experiente e Empreendedor)**
 - **Idade:** 35 anos
@@ -22,7 +21,6 @@
 - **Necessidades/Dores:**
   - Precisa de controle sobre os ingredientes para evitar desperdícios.
   - Quer facilitar o gerenciamento de muitos pedidos ao mesmo tempo.
-  - Precisa manter seu catálogo sempre atualizado de forma rápida.
 - **Como o Sweetify ajuda:**
   - Mostra a quantidade exata de ingredientes para cada produção.
   - Ajuda a gerenciar insumos, embalagens e outros itens necessários para um produto
@@ -61,16 +59,16 @@
 
 ### Requisitos Funcionais
 
-|ID|Descrição do Requisito|Prioridade|Critério de Aceitação|Origem|
-|---|---|---|---|---|
-|RF-001|O sistema deve permitir login com e-mail e senha.|Alta|O usuário consegue acessar o sistema com credenciais válidas.|Cliente|
-|RF-002|O sistema deve permitir que o usuário adicione seu catálogo de produtos.|Alta|O usuário consegue cadastrar produtos com nome, descrição, preço e imagens.|Cliente|
-|RF-003|O usuário terá a possibilidade de acessar todas as encomendas, contendo nome do cliente, produto, quantidade e prazo de entrega.|Alta|Listagem completa de encomendas com os campos definidos.|Cliente|
-|RF-004|O usuário terá acesso aos pedidos por ordem de prioridade, de acordo com o prazo de entrega determinado pelos clientes.|Alta|Pedidos exibidos em ordem de prazo crescente.|Cliente|
-|RF-005|No catálogo, o usuário pode adicionar novas receitas ou editar informações de receitas já cadastradas, mantendo o cardápio atualizado.|Média|O usuário consegue criar, salvar e alterar receitas existentes.|Cliente|
-|RF-006|O sistema deve sugerir precificação aos catálogos dos clientes baseado nos preços de mercado.|Baixa|Sugestões de preços apresentadas com base em dados externos ou históricos.|Cliente|
-|RF-007|O sistema deve fazer um controle automático de estoque e uso de ingredientes na confecção dos doces baseado nos pedidos.|Alta|O estoque é atualizado automaticamente após cada pedido confirmado.|Cliente|
-|RF-008|O sistema deve oferecer ao usuário relatórios pré-definidos como curva ABC e margem de lucros.|Média|Relatórios são gerados corretamente e exibem dados consolidados.|Cliente|
+|ID    | Descrição do Requisito |Teste | Critério | Prioridade | Origem
+|------|-----------------------------------------|---|------------------------------------------|---|
+|RF-001|UC-001 - O sistema deve permitir que o usuário faça login com email e senha|TC-001 - Teste de autenticação | O usuário consegue acessar o sistema com credenciais válidas | Alta | Cliente |
+|RF-002|UC-002 - O sistema deve permitir gerenciamento de usuários, produtos, receitas e custos de produção |TC-002 - Teste de CRUD de dados | O usuário consegue criar, atualizar e excluir dados | Alta | Cliente |
+|RF-003|UC-003 - O sistema deve ser capaz de calcular rendimento total de um produto | TC-003 - Teste de cálculo de rendimento | O sistema exibe o número total de porções ou unidades que a receita rende | Alta | Cliente |
+|RF-004|UC-004 - O sistema deve permitir o cadastro produto com múltiplas receitas | TC-004 - Teste de associação de receitas | O usuário consegue vincular várias receitas a um único produto | Alta | Cliente |
+|RF-005|UC-005 - O sistema deve ser capaz de gerenciar receitas | TC-005 - Teste de criação e edição de receitas | O usuário consegue criar, salvar, exlcuir e alterar receitas existentes | Alta | Cliente |
+|RF-006|UC-006 - O sistema deve ser capaz de sugerir preços de produtos |TC-006 - Teste de precificação automática | Sugestões de preços apresentadas com base em dados de insumos e receitas inseridos pelo usuário | Alta | Cliente |
+|RF-007|UC-007 - O sistema deve permitir o controle de insumos |TC-007 - Teste de criação e edição de insumos | O usuário consegue criar, salvar e alterar receitas existentes | Alta | Cliente |
+|RF-008|UC-008 - O sistema deve permitir que o usuário visualize todas as informações que cadastrou na aplicação | TC-008 - Teste de visualização de dados | O usuário pode visualizar a lista completa de produtos, receitas, e custos | Alta | Cliente |
 
 ### Requisitos não Funcionais
 
@@ -92,20 +90,6 @@
 ## Diagrama de Casos de Uso
 
 ![Diagrama de Casos de Uso](img/Casos-de-Uso.jpg)
-
-
-# Matriz de Rastreabilidade
-
-|ID    | Descrição do Requisito |Teste | Critério | Prioridade |
-|------|-----------------------------------------|---|------------------------------------------|---|
-|RF-001|UC-001 - Login no Sistema |TC-001 - Teste de autenticação | O usuário consegue acessar o sistema com credenciais válidas | Alta |
-|RF-002|UC-002 - Gerenciar usuários, produtos, receitas e custos de produção |TC-002 - Teste de CRUD de dados | O usuário consegue criar, atualizar e excluir dados | Alta |
-|RF-003|UC-003 - Calcular rendimento total do produto | TC-003 - Teste de cálculo de rendimento | O sistema exibe o número total de porções ou unidades que a receita rende | Alta |
-|RF-004|UC-004 - Registrar produto com múltiplas receitas | TC-004 - Teste de associação de receitas | O usuário consegue vincular várias receitas a um único produto | Alta |
-|RF-005|UC-005 - Gerenciar Receitas | TC-005 - Teste de criação e edição de receitas | O usuário consegue criar, salvar e alterar receitas existentes | Alta |
-|RF-006|UC-006 - Sugestão de Preços de Produtos |TC-006 - Teste de precificação automática | Sugestões de preços apresentadas com base em dados de insumos e receitas inseridos pelo usuário | Alta |
-|RF-007|UC-007 - Controle de Insumos |TC-007 - Teste de criação e edição de insumos | O usuário consegue criar, salvar e alterar receitas existentes | Alta |
-|RF-008|UC-008 - Visualizar todas as informações cadastradas | TC-008 - Teste de visualização de dados | O usuário pode visualizar a lista completa de produtos, receitas, e custos | Alta |
 
 # Gerenciamento de Projeto
 
