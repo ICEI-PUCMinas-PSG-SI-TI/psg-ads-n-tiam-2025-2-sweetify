@@ -2,18 +2,26 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Optamos por utilizar o Modelo C4 para descrever a arquitetura do nosso sistema, fornecendo visões detalhadas nos níveis de Contexto e Container.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+### Nível de Contexto
+
+Esta seção apresenta a visão geral do nosso sistema.
+
+O Aplicativo Sweetify é utilizado pelo Usuário (Confeiteiro). O principal objetivo do sistema é automatizar e simplificar dois processos críticos para o usuário: a gestão da produção e o processo de precificação de produtos de confeitaria.
+
+![Modelo C4 Nível Contexto](img/C4-Contexto.jpg)
+
+### Nível de Container
+
+A visão de Container detalha a arquitetura interna do nosso aplicativo, mostrando as principais aplicações e armazenamentos de dados que compõem o sistema. O Usuário interage diretamente com a Interface de Usuário (Mobile App), que será desenvolvida utilizando React Native. Esta interface, por sua vez, se comunica com a API de Backend. A API é o componente responsável por toda a lógica de negócio e pelo gerenciamento do acesso aos dados, sendo desenvolvida em C# com o framework ASP.NET Core. Complementando o backend, o Banco de Dados é responsável por persistir e armazenar todas as informações críticas da aplicação. A comunicação e o gerenciamento dos dados do banco são feitos exclusivamente pela API.
+
+![Modelo C4 Nível Container](img/C4-Container.jpg)
+
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+![Diagrama de classes](img/C4-Diagrama-de-classes.png)
 
 ## Modelo ER
 
@@ -37,7 +45,19 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Frontend (Interface de Usuário)
+Plataforma: React Native (para o desenvolvimento da interface mobile).
+Estilização: CSS e o framework Tailwind CSS (para aceleração e consistência do design).
+
+### Backend (API e Dados)
+Linguagem da API: C#.
+Framework da API: ASP.NET Core.
+Banco de Dados: SQL Server (tipo relacional, utilizado para persistência de dados).
+
+### Ferramentas de Desenvolvimento e Processo
+Ambiente de Desenvolvimento (IDE): Visual Studio Code (VS Code).
+Controle de Versão: GitHub (para versionamento e colaboração).
+Testes de API e Documentação: Swagger (para documentação de endpoints) e Postman (para testes manuais e funcionais na API).
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
