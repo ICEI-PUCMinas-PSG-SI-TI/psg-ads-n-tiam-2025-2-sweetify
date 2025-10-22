@@ -59,16 +59,20 @@
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito |Teste | Critério | Prioridade | Origem
-|------|-----------------------------------------|---|------------------------------------------|---|
-|RF-001|UC-001 - O sistema deve permitir que o usuário faça login com email e senha|TC-001 - Teste de autenticação | O usuário consegue acessar o sistema com credenciais válidas | Alta | Cliente |
-|RF-002|UC-002 - O sistema deve permitir gerenciamento de usuários, produtos, receitas e custos de produção |TC-002 - Teste de CRUD de dados | O usuário consegue criar, atualizar e excluir dados | Alta | Cliente |
-|RF-003|UC-003 - O sistema deve ser capaz de calcular rendimento total de um produto | TC-003 - Teste de cálculo de rendimento | O sistema exibe o número total de porções ou unidades que a receita rende | Alta | Cliente |
-|RF-004|UC-004 - O sistema deve permitir o cadastro produto com múltiplas receitas | TC-004 - Teste de associação de receitas | O usuário consegue vincular várias receitas a um único produto | Alta | Cliente |
-|RF-005|UC-005 - O sistema deve ser capaz de gerenciar receitas | TC-005 - Teste de criação e edição de receitas | O usuário consegue criar, salvar, exlcuir e alterar receitas existentes | Alta | Cliente |
-|RF-006|UC-006 - O sistema deve ser capaz de sugerir preços de produtos |TC-006 - Teste de precificação automática | Sugestões de preços apresentadas com base em dados de insumos e receitas inseridos pelo usuário | Alta | Cliente |
-|RF-007|UC-007 - O sistema deve permitir o controle de insumos |TC-007 - Teste de criação e edição de insumos | O usuário consegue criar, salvar e alterar receitas existentes | Alta | Cliente |
-|RF-008|UC-008 - O sistema deve permitir que o usuário visualize todas as informações que cadastrou na aplicação | TC-008 - Teste de visualização de dados | O usuário pode visualizar a lista completa de produtos, receitas, e custos | Alta | Cliente |
+| ID | Descrição do Requisito | Teste | Critério | Prioridade | Origem |
+|:---|:---|:---|:---|:---|:---|
+| RF-001 | UC-001 - O sistema deve permitir que o usuário faça login com email e senha | TC-001 - Teste de autenticação | O usuário consegue acessar o sistema com credenciais válidas | Alta | Cliente |
+| RF-002 | UC-002 - O sistema deve permitir gerenciamento de usuários, produtos, receitas, encomendas e custos de produção | TC-002 - Teste de CRUD de dados | O usuário consegue criar, atualizar e excluir dados | Alta | Cliente |
+| RF-003 | UC-003 - O sistema deve ser capaz de calcular rendimento total de um produto | TC-003 - Teste de cálculo de rendimento | O sistema exibe o número total de porções ou unidades que a receita rende | Alta | Cliente |
+| RF-004 | UC-004 - O sistema deve permitir o cadastro do produto com múltiplas receitas | TC-004 - Teste de associação de receitas | O usuário consegue vincular várias receitas a um único produto | Alta | Cliente |
+| RF-005 | UC-005 - O sistema deve ser capaz de gerenciar receitas | TC-005 - Teste de criação e edição de receitas | O usuário consegue criar, salvar, excluir e alterar receitas existentes | Alta | Cliente |
+| RF-006 | UC-006 - O sistema deve ser capaz de sugerir preços de produtos | TC-006 - Teste de precificação automática | Sugestões de preços apresentadas com base em dados de insumos e receitas inseridos pelo usuário | Alta | Cliente |
+| RF-007 | UC-007 - O sistema deve permitir o usuário alterar os preços de venda sugeridos pela plataforma| TC-007 - Teste de edição de precificação | O usuário consegue alterar o preço de venda fornecido pela plataforma | Alta | Cliente |
+| RF-008 | UC-008 - O sistema deve permitir o controle de insumos | TC-008 - Teste de criação e edição de insumos | O usuário consegue criar, salvar e alterar insumos existentes | Alta | Cliente |
+| RF-009 | UC-009 - O sistema deve permitir que o usuário visualize todas as informações que cadastrou na aplicação | TC-009 - Teste de visualização de dados | O usuário pode visualizar a lista completa de produtos, receitas, e custos | Alta | Cliente |
+| RF-010 | UC-010 - O sistema deve fornecer o preço de venda, custo e lucro para encomendas cadastradas no aplicativo | TC-010 - Teste de precificação  | O usuário pode visualizar a precificação final da encomenda | Alta | Cliente |
+| RF-011 | UC-011 -O sistema deve notificar o usuário e orientá-lo quando tentar adicionar itens (insumos, receitas, serviços ou produtos) não cadastrados. | TC-011 - Notificação de Item Faltante | O sistema interrompe a ação, exibe uma mensagem clara indicando que o item não existe no cadastro e oferece uma opção ou atalho direto para a tela de cadastro do respectivo item. | Alta | Cliente |
+| RF-012 | UC-012 - O sistema deve permitir ao usuário aplicar templates pré-definidos no momento do cadastro. | TC-012 - Teste de Aplicação de Template  | O usuário consegue selecionar um template durante a criação de um novo item (insumo, receita ou produto), e os campos predefinidos são carregados automaticamente. | Média | Cliente |
 
 ### Requisitos não Funcionais
 
@@ -78,6 +82,7 @@
 |RNF-002|O sistema deve ser responsivo.|Usabilidade|Interface se adapta a dispositivos móveis, tablets e desktops.|
 |RNF-003|O sistema deve estar disponível 24/7.|Disponibilidade|Testes confirmam uptime contínuo.|
 |RNF-004|Tempo de carregamento menor que 3 segundos.|Desempenho|Páginas principais carregam em até 3 segundos em ambiente de produção.|
+|RNF-005|O sistema deve permitir que o usuário acesse as telas de cadastro (insumos, receitas, serviços, produtos e encomendas) com, no máximo, dois toques/cliques a partir da tela principal.|
  
 
 ## Restrições
