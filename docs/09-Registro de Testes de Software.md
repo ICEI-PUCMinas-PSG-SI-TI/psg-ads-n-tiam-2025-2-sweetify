@@ -1,12 +1,29 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Os testes de software do sistema Sweetify foram conduzidos com base em um plano pré-definido, visando validar rotas e funcionalidades principais.
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+## Testes de API
+- Ferramentas utilizadas: Postman e Swagger  
+- Módulos testados: insumos, receitas, serviços, produtos e encomendas  
+- Resultados:
+  - Todas as rotas responderam corretamente com os códigos HTTP adequados (200, 201, 204, 400, 404)
+  - Requisições retornaram os dados esperados
+  - Tratamento adequado de erros e mensagens claras ao usuário
 
-## Avaliação
+## Análise dos Resultados dos Testes
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os resultados obtidos foram satisfatórios, indicando que a aplicação atende aos requisitos definidos.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+### Ações Planejadas para Próximas Iterações
+
+1. Aprimorar mensagens da API, tornando-as mais específicas e informativas  
+2. Ampliar e padronizar a documentação no Swagger, incluindo exemplos e respostas esperadas  
+3. Implementar novas validações no frontend, garantindo envio de dados completos e válidos  
+4. Revisar a interface de usuário, incorporando feedbacks dos testes de usabilidade realizados com o Expo Go
+
+## Conclusão
+
+Os testes realizados confirmaram o bom desempenho e estabilidade do sistema, garantindo que:
+- Todos os requisitos funcionais foram validados
+- A integração entre camadas estável e consistente
+- A aplicação encontra-se pronta para uso em ambiente de produção
