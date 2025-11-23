@@ -16,7 +16,7 @@ https://www.figma.com/proto/uLLw7vcthNawTnznk07h7g/Sweetfy?node-id=1-2&t=RVopL5o
 
 ### Splash Screen
 
-![splash-screen](img/Splash-Screen)
+![splash-screen](img/Splash-Screen.png)
 
 ### Login e Cadastro
 
@@ -48,6 +48,6 @@ https://www.figma.com/proto/uLLw7vcthNawTnznk07h7g/Sweetfy?node-id=1-2&t=RVopL5o
 
 ![expandir-receita](img/Expandir-Receita.png)
 ![expandir-produto](img/Expandir-Produto.png)
-![expandir-encomenda](img/Expandir-Encomenda.png)
+![expandir-encomenda](img/Expandir-Receita.png)
 
 
