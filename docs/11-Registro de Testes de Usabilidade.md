@@ -9,7 +9,7 @@ Este documento serve como o Registro Oficial dos Testes de Usabilidade realizado
 | Item | Descrição |
 | :--- | :--- |
 | **Aplicativo Testado** | Telas de Cadastro e Página Inicial/Gerenciamento |
-| **Testador Responsável** | Matheus Dias |
+| **Testador Responsável** | Matheus Dias, Yuri Martins|
 | **Referência** | Plano de Testes de Usabilidade (Documento Base) |
 
 ### Perfil dos Participantes
