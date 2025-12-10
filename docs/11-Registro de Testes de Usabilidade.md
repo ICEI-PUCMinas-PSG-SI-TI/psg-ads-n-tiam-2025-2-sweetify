@@ -8,10 +8,8 @@ Este documento serve como o Registro Oficial dos Testes de Usabilidade realizado
 
 | Item | Descrição |
 | :--- | :--- |
-| **Data de Realização** | [Inserir Data] |
 | **Aplicativo Testado** | Telas de Cadastro e Página Inicial/Gerenciamento |
-| **Versão do Aplicativo** | [Inserir Versão] |
-| **Testador Responsável** | [Inserir Nome do Time/Pessoa] |
+| **Testador Responsável** | Matheus Dias |
 | **Referência** | Plano de Testes de Usabilidade (Documento Base) |
 
 ### Perfil dos Participantes
@@ -80,6 +78,3 @@ Com base nos resultados, as seguintes ações foram priorizadas para aprimorar a
 2.  Redesenho da área de ações em massa (selecionar/editar/excluir) nas telas de detalhes para aumentar o tamanho e separação dos botões e ícones.
 3.  Ajustes finos nas cores dos ícones para melhor clareza.
 
-> **Links Úteis para Implementação**:
-> * [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
-> * [UX Planet: Melhores Práticas para Design de Cards](https://uxplanet.org/best-practices-for-card-design-c7f70b7495b5)
